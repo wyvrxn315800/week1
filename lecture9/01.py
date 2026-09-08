@@ -1,0 +1,12 @@
+fruist = {"apple","banana","cherry"}
+fruist.add("orange")
+print(fruist)
+fruist.remove("banana")
+print(fruist)
+fruist.discard("grape")
+print(fruist)
+remove_item = fruist.pop()
+print(remove_item)
+print(fruist)
+fruist.clear()
+print(fruist)
